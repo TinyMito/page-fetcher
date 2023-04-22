@@ -24,11 +24,4 @@ request(`${command[0]}`, (error, response, body) => {
 
     console.log(`Downloaded and saved ${size} bytes to ${command[1]}`); // If success
   });
-
 });
-
-
-
-
-
-
